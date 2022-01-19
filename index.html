@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <script defer src="index.js" charset="utf-8"></script>
+    <title></title>
+  </head>
+
+  <body>
+
+    <form id="example-form" action="#" autocomplete="off">
+      <div class="inputs">
+        <label for="username-input">Username: </label>
+        <input name="username-input" id="name-input" type="text">
+        <p id="name-input-error"></p>
+      </div>
+
+      <div class="inputs">
+        <label for="user-age-input">Age: </label>
+        <input type="number" name="user-age-input" id="age-input">
+        <p id="age-input-error"></p>
+      </div>
+
+      <div class="inputs">
+        <!-- Letter T should not be allowed (event: Keydown) -->
+        <label for="user-info">Extra info: </label>
+        <input type="text" name="user-info" id="info-input">
+      </div>
+
+      <div class="inputs">
+        <label for="user-privacy">Agree to our privacy statement: </label>
+        <input type="checkbox" name="user-privacy" id="privacy-input">
+      </div>
+
+      <div class="inputs">
+        <label for="user-comments">Login feedback comments: </label>
+        <input type="text" name="user-comments" id="comments-input">
+      </div>
+
+      <div class="inputs">
+        <label for="user-ts-and-cs">Terms and conditions: </label>
+        <input type="checkbox" name="user-ts-and-cs" id="terms-input">
+      </div>
+
+
+        <input type="submit">
+    </form>
+
+    <p id="pTag"></p>
+  </body>
+</html>
